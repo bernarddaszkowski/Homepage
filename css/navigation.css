@@ -1,0 +1,37 @@
+.navigation__header {
+    color: hsl(271, 27%, 50%);
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-style: PT Sans Narrow;
+    padding-top: 25px;
+}
+
+.navigation__listItem {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.navigation__listItem--decoration {
+    text-decoration: none;
+}
+
+.navigation__picture {
+    width: 200px;
+    box-shadow: 7px 18px 73px 10px #947f739e;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    outline: 2px solid rgba(252, 193, 161, 0.62);
+}
+
+.navigation__listItem--decoration:visited {
+    color: rgb(67, 50, 221);
+}
+
+.navigation__listItem--decoration:focus {
+    outline: 2x solid currentColor;
+}
+
+.navigation__listItem--decoration:hover {
+    color: rgb(144, 177, 214);
+    border-bottom: 2px dotted;
+    outline: none
+}
