@@ -24,7 +24,7 @@
 
 }
 
-.navigation__listItem--decoration {
+.navigation__listItemText {
     text-decoration: none;
     color: #eee;
 }
@@ -40,10 +40,10 @@
     outline: 2px solid rgba(252, 193, 161, 0.62);
 }
 
-.navigation__listItem--decoration:visited {
+.navigation__listItemText:visited {
     color: #eee;
 }
 
-.navigation__listItem--decoration:focus {
+.navigation__listItemText:focus {
     outline: 2x solid currentColor;
 }

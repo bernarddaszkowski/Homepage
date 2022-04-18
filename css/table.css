@@ -1,0 +1,27 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: sans-serif;
+    display: none;
+}
+
+.table_button {
+    width: 250px;
+}
+
+.table__Cell {
+    border: 1px solid #aaa;
+    padding: 5px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: #825ea3;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+.table--display {
+    display: table
+}

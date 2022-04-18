@@ -4,31 +4,3 @@
     font-style: PT Sans Narrow;
     padding-top: 25px;
 }
-
-.article__buttonTable {
-    width: 250px;
-}
-
-.article__table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 0 auto;
-    font-family: sans-serif;
-    display: none;
-}
-
-.article__tableCell {
-    border: 1px solid #aaa;
-    padding: 5px;
-    text-align: center;
-}
-
-.article__tableHeader {
-    background-color: #825ea3;
-    font-weight: lighter;
-    color: whitesmoke;
-}
-
-.article__div {
-    display: table
-}

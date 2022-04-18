@@ -1,13 +1,13 @@
 console.log("Cześć!");
 
-let button = document.querySelector(".article__buttonTable");
-let table = document.querySelector(".article__table");
-let buttonName = document.querySelector(".article__buttonName");
+let button = document.querySelector(".table__button");
+let table = document.querySelector(".table");
+let buttonName = document.querySelector(".js-buttonName");
 
 button.addEventListener("click", () => {
-    table.classList.toggle("article__div");
+    table.classList.toggle("table--display");
 
-    if (table.classList.contains("article__div")) {
+    if (table.classList.contains("table--display")) {
         buttonName.innerText = "Wyłącz";
     }
     else {
