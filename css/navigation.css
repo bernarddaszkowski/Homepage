@@ -1,17 +1,32 @@
+.navigation {
+    text-align: center;
+}
+
+.navigation__list  {
+    padding-inline-start: 0px;
+}
 .navigation__header {
     color: hsl(271, 27%, 50%);
     font-family: 'PT Sans Narrow', sans-serif;
-    font-style: PT Sans Narrow;
+    font-style: 'PT Sans Narrow';
     padding-top: 25px;
+    text-align: center;
 }
 
 .navigation__listItem {
     list-style-type: none;
+    max-width: 400px;
     padding: 10px;
+    text-align: center;
+    background-color: hsla(272, 27%, 75%, 0.92);
+    border-bottom: #eee 2px solid;
+    margin: 0px auto;
+
 }
 
 .navigation__listItem--decoration {
     text-decoration: none;
+    color: #eee;
 }
 
 .navigation__picture {
@@ -23,15 +38,9 @@
 }
 
 .navigation__listItem--decoration:visited {
-    color: rgb(67, 50, 221);
+    color: #eee;
 }
 
 .navigation__listItem--decoration:focus {
     outline: 2x solid currentColor;
-}
-
-.navigation__listItem--decoration:hover {
-    color: rgb(144, 177, 214);
-    border-bottom: 2px dotted;
-    outline: none
 }
