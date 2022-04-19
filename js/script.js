@@ -1,10 +1,14 @@
-console.log("Cześć!");
+{
+function welcome() {
+    console.log("Witam deweloperów zaglądających na moją pierwszą stronę.!");    
+}
+welcome();
 
-let button = document.querySelector(".table__button");
-let table = document.querySelector(".table");
-let buttonName = document.querySelector(".js-buttonName");
+const button = document.querySelector(".table__button");
+const table = document.querySelector(".table");
+const buttonName = document.querySelector(".js-buttonName");
 
-button.addEventListener("click", () => {
+const tableDisplayOn = () => {
     table.classList.toggle("table--display");
 
     if (table.classList.contains("table--display")) {
@@ -12,5 +16,9 @@ button.addEventListener("click", () => {
     }
     else {
         buttonName.innerText = "Włącz";
-    }
-});
+    };
+}
+
+button.addEventListener("click", tableDisplayOn);
+}
+
