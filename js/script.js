@@ -6,10 +6,10 @@
 
     const tableDisplayOn = () => {
         const buttonName = document.querySelector(".js-buttonName");
-        const table = document.querySelector(".table");
-        const button = document.querySelector(".table__button");
-        table.classList.toggle("table--display");
-        if (table.classList.contains("table--display")) {
+        const table = document.querySelector(".js-table");
+        const button = document.querySelector(".js-table__button");
+        table.classList.toggle("table-visible");
+        if (table.classList.contains("table-visible")) {
             buttonName.innerText = "Wyłącz";
         }
         else {
@@ -17,7 +17,7 @@
         };
     }
     const init = () => {
-        const button = document.querySelector(".table__button");
+        const button = document.querySelector(".js-table__button");
         button.addEventListener("click", tableDisplayOn);
     }
 
